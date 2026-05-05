@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
+import { CiLinkedin } from "react-icons/ci";
+import { FaTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 type Props = {}
 
@@ -22,27 +25,11 @@ const Footer = (props: Props) => {
 
           {/* Social Icons */}
           <div className='flex gap-3 justify-center items-center'>
-            <Image 
-              src="/images/twitter.png" 
-              alt="Twitter" 
-              width={20} 
-              height={20} 
-              className='cursor-pointer hover:opacity-70 transition'
-            />
-            <Image 
-              src="/images/linkedin.png" 
-              alt="LinkedIn" 
-              width={20} 
-              height={20} 
-              className='cursor-pointer hover:opacity-70 transition'
-            />
-            <Image 
-              src="/images/Vector.png" 
-              alt="Website" 
-              width={20} 
-              height={20} 
-              className='cursor-pointer hover:opacity-70 transition'
-            />
+
+                      <CiLinkedin className="cursor-pointer hover:opacity-70 transition" />
+                      <FaTwitter className="cursor-pointer hover:opacity-70 transition" />
+                      <FaGithub className="cursor-pointer hover:opacity-70 transition" />
+
           </div>
 
         </div>
