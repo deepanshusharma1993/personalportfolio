@@ -13,7 +13,12 @@ const Footer = (props: Props) => {
         
         {/* Left Section */}
         <div className='text-lg font-semibold'>
-         <Image src="/images/logo-noBg.png" alt="Logo" width={100} height={50} />
+            <Image
+                     src="https://devicon-website.vercel.app/api/socketio/original.svg"
+                     alt="Logo"
+                     width={40}
+                     height={40}
+                   />
         </div>
 
         {/* Right Section */}

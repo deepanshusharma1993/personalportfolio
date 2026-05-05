@@ -19,10 +19,10 @@ export default function Nav(props: IAppProps) {
         {/* Logo */}
         <div>
           <Image
-            src="/images/logo-noBg.png"
+            src="https://devicon-website.vercel.app/api/socketio/original.svg"
             alt="Logo"
-            width={100}
-            height={50}
+            width={40}
+            height={40}
           />
         </div>
 
